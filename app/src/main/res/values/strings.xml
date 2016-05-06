@@ -21,4 +21,17 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_new_login">Login</string>
+    <string name="title_activity_herb_search_p">ค้นหาสมุนไพร</string>
+    <string name="title_activity_herb_search_c">ค้นหาสมุนไพร</string>
+    <string name="title_activity_disease_search_p">ค้นหาอาการ/โรค</string>
+    <string name="title_activity_article_search_p">ค้นหาบทความเพื่อสุขภาพ</string>
+    <string name="title_activity_info_search_p">ค้นหาInfographic</string>    
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_herb_detail_p">สมุนไพร</string>
+    
+
+
+
+
 </resources>

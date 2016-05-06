@@ -1,6 +1,8 @@
 package sk.s5630213008.socialherb;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
@@ -13,11 +15,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.ImageView;
 
 public class MenuActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 
-    TabLayout tabLayout;
+
+    Button btnHERB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,10 +31,11 @@ public class MenuActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-      //  tabLayout = (TabLayout) findViewById(R.id.tabLayout);
-       // tabLayout.addTab(tabLayout.newTab().setText("Tab 1"));
-      //  tabLayout.addTab(tabLayout.newTab().setText("Tab 2"));
-       // tabLayout.addTab(tabLayout.newTab().setText("Tab 3"));
+
+        btnHERB = (Button)findViewById(R.id.btnHERB);
+        btnHERB.setOnClickListener(this);
+
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -102,5 +108,29 @@ public class MenuActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public void onClick(View v) {
+        Intent intent = new Intent(getApplicationContext(),HerbSearchPActivity.class);
+        startActivity(intent);
+    }
+
+    public void btnClickDISEASE(View vv){
+        Intent intent = new Intent(getApplicationContext(),DiseaseSearchPActivity.class);
+        startActivity(intent);
+
+    }
+
+    public void btnClickARTICLE(View av){
+        Intent intent = new Intent(getApplicationContext(),ArticleSearchPActivity.class);
+        startActivity(intent);
+
+    }
+
+    public void btnClickINFO(View nv){
+        Intent intent = new Intent(getApplicationContext(),InfoSearchPActivity.class);
+        startActivity(intent);
+
     }
 }
