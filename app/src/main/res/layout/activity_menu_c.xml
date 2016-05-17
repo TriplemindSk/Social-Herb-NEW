@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="sk.s5630213008.socialherb.MenuCActivity"
+    android:background="@color/WBGcolor">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:theme="@style/MyMaterialTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="?attr/colorPrimary"
+            android:gravity="bottom"
+            app:popupTheme="@style/MyMaterialTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="210dp"
+                    android:layout_height="85dp"
+                    android:src="@drawable/herb"/>
+
+                <ImageView
+                    android:layout_width="210dp"
+                    android:layout_height="85dp"
+                    android:src="@drawable/disease"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"                >
+
+                <Button
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:text="สมุนไพร"
+                    android:id="@+id/btnHERB"
+                    android:onClick="onClick"/>
+
+
+                <Button
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:text="อาการ/โรค"
+                    android:id="@+id/btnDisease"
+                    android:onClick="btnClickDISEASE"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="210dp"
+                    android:layout_height="85dp"
+                    android:src="@drawable/article"/>
+
+                <ImageView
+                    android:layout_width="210dp"
+                    android:layout_height="85dp"
+                    android:src="@drawable/info"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                >
+
+                <Button
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:text="บทความเพื่อสุขภาพ"
+                    android:id="@+id/btnARTICLE"
+                    android:onClick="btnClickARTICLE"/>
+
+
+                <Button
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:text="INFOGRAPHIC"
+                    android:id="@+id/btnINFO"
+                    android:onClick="btnClickINFO"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/content_menu_c" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>

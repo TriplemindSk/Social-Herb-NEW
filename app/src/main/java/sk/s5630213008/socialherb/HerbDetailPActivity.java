@@ -17,7 +17,7 @@ import java.util.List;
 
 public class HerbDetailPActivity extends AppCompatActivity {
 
-    private Toolbar toolbar;
+
     private TabLayout tabLayout;
     private ViewPager viewPager;
 

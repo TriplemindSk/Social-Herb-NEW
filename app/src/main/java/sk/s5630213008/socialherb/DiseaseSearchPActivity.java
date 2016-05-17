@@ -29,7 +29,7 @@ public class DiseaseSearchPActivity extends AppCompatActivity implements View.On
     @Override
     public void onClick(View v) {
 
-        Intent intent = new Intent(getApplicationContext(),NewLoginActivity.class);
+        Intent intent = new Intent(getApplicationContext(),DiseaseDetailPActivity.class);
         startActivity(intent);
     }
 }

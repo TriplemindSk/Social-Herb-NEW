@@ -10,7 +10,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="sk.s5630213008.socialherb.NewLoginActivity"
-    tools:showIn="@layout/activity_new_login">
+    tools:showIn="@layout/activity_new_login"
+    android:background="@drawable/bgddd">
 
 
     <LinearLayout
@@ -41,6 +42,29 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
+
+
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ggg"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ลงชื่อเข้าใช้"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:orientation="horizontal"></LinearLayout>
+
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
@@ -75,6 +99,11 @@
 
                 </android.support.design.widget.TextInputLayout>
 
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"></LinearLayout>
+
                 <Button
                     android:id="@+id/email_sign_in_button"
                     style="?android:textAppearanceSmall"
@@ -83,8 +112,9 @@
                     android:layout_marginTop="16dp"
                     android:text="ลงชื่อเข้าใช้"
                     android:textStyle="bold"
-                    android:textColor="#000000"
-                    android:onClick="btnClickLogin"/>
+                    android:textColor="#000"
+                    android:onClick="btnClickLogin"
+                    />
 
 
                 <Button
@@ -95,13 +125,16 @@
                     android:layout_marginBottom="16dp"
                     android:textStyle="bold"
                     android:text="สมัครสมาชิก"
-                    android:textColor="#000000"
+                    android:textColor="#000"
                     android:onClick="onClick"
                     />
 
                 </LinearLayout>
             </ScrollView>
         </LinearLayout>
+
+
+
 
     </LinearLayout>
 

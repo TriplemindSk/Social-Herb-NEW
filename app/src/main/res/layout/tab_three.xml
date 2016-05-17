@@ -32,7 +32,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ชื่อสมุนไพร"
+        android:text="กระเจี๊ยบแดง"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
@@ -49,7 +49,7 @@
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:textSize="18dp"
-               android:text="ชื่องานวิจัย"
+               android:text=" ยาเม็ดกระเจี๊ยบแดงใช้ส าหรับผู้ป่วยความดันโลหิตสูงและเบาหวาน"
                android:textColor="#1c1c1c"
                android:textStyle="bold"/>
 
@@ -62,7 +62,7 @@
            <TextView
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:text="ddddddddddddddddddddddddddddddddddddddddddddddd"
+               android:text=" กระเจี๊ยบแดงเป็นสมุนไพรที่ใช้กันมานาน ในสาธารณสุขมูลฐานสนับสนุนให้นำกลีบเลี้ยงกระเจี๊ยบแดงต้มน้ำดื่มใช้เป็นยาขับปัสสาวะและปัจจุบันชาชงกระเจี๊ยบแดงอยู่ในบัญชียาหลักแห่งชาติใช้ป็นยาขับปัสสาวะ แต่อยู่ในรูปของยาชง ดังนั้นได้มีการพัฒนาเป็นสารสกัดเพื่อให้ควบคุมคุณภาพและเก็บรักษาได้นาน โดยการศึกษาสารสกัดกระเจี๊ยบแดงในสัตว์ทดลองพบว่ากระเจี๊ยบมีผลลดความดันโลหิตได้ทุกรูปแบบการสกัด ลดไขมันในเลือดและลดน้ำตาลในเลือดได้ดี เมื่อทดสอบให้หนูกินสารสกัดติดต่อนาน 9 เดือนในขนาด 10 เท่าของที่ออกฤทธิ์ก็ไม่มีพิษและไม่ทำให้ค่าเคมีในเลือดเปลี่ยนแปลงแต่อย่างไร เมื่อทดลองในอาสาสมัครปกติ พบว่าการรับประทานติดต่อกันไม่เกิดพิษ เมื่อทดลองในผู้ป่วยความดันโลหิตสูง รับประทานติดต่อกันนาน 2 เดือนพบว่า สามารถลดความดัได้ มีความแตกต่างกัน ทางสถิติ เมื่อเปรียบเทียบค่าก่อนให้ยา  เมื่อให้ในผู้ป่วยเบาหวาน พบว่ายาเม็ดกระเจี๊ยบแดงสามารถลดระดับน้ำตาลในเลือดขณะอดอาหารลดลง หลังได้รับกระเจี๊ยบติดต่อกัน 4 เดือน ค่า Hb  A1C,  Insulin และ  HOMA-IR นั้น ลดลงอย่างมีนัยส าคัญทางสถิติ ซึ่งแสดงถึงผลของกระเจี๊ยบที่ช่วยควบคุมระดับน้ำตาลสะสมและลดภาวะดื้อต่ออินสุลินซึ่งเป็นฤทธิ์ที่ประโยชน์อย่างยิ่งในการรักษาผู้ป่วยเบาหวาน ผลของยากระเจี๊ยบต่อระดับไขมันและโคเลศเตอรอล หลังจากที่ผู้ป่วยได้รับยาจากสารสกัดกระเจี๊ยบแดง ติดต่อกัน 4 เดือน จะมีระดับของ triglyceride ลดลงอย่างมีนัยสำคัญ "
                android:textSize="16dp"
                android:textStyle="bold"
                android:textColor="#1c1c1c"/>
@@ -78,7 +78,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16dp"
-            android:text="อ้างอิง : ddddddddddddddddddddddddd"
+            android:text="ผู้ค้นคว้า  รศ.ดร.อรุณพร อิฐรัตน์ และคณะผู้ร่วมวิจัย "
             android:textColor="#1c1c1c"
             android:layout_gravity="right"/>
 
@@ -104,7 +104,10 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="@string/google"/>
 
 
 

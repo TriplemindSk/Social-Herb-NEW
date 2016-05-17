@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:textSize="20dp"
-                android:text="ชื่อสมุนไพร"
+                android:text="กระเจี๊ยบแดง"
                 android:id="@+id/tvh"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#1c1c1c" />
@@ -67,7 +67,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                android:text="ยอดและใบ ยอดและใบ ช่วยย่อยอาหาร ละลายเสมหะ ขับปัสสาวะ หล่อลื่นลำไส้ เป็นยาบำรุงธาตุและ ยาระบาย
+ใช้ภายนอกก็คือตำพอกฝี ต้มน้ำชะ ล้างแผล
+เมล็ด ลดไขมันในเลือด บำรุงเลือด บำรุงธาตุ ขับน้ำดี ขับปัสสาวะ แก้ปัสสาวะขัดและเจ็บ เป็นยาระบาย
+กลีบเลี้ยง ทำให้สดชื่น ขับปัสสาวะ ขับน้ำดี ลดไข้ แก้ไอ แก้นิ่ว แก้กระหายน้ำ วิธีใช้ โดยใช้ชงน้ำร้อนหรือต้มน้ำกิน"
                 android:textSize="16dp"/>
 
             <LinearLayout
@@ -94,7 +97,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
-                android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+                android:text="วิธีใช้โดยแกงหรือต้มกิน ใช้ภายนอก โดยเอาใบตำ
+ให้ละเอียดแล้วนำมาประคบฝี ต้มเอาน้ำมาล้างแผล
+วิธีใช้บดให้ละเอียดเป็นผง ผสมกินหรือต้มน้ำกิน ใช้เมล็ดที่แห้ง
+ใช้ที่ตากแห้งแล้วประมาณ 5 – 10 กรัมยา"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -120,7 +126,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                android:text="น้ำกระเจี๊ยบใส่พุทราจีน นอกจากจะช่วยลดไขมันในเส้นเลือด  ช่วยลดน้ำหนักแล้ว กระเจี๊ยบยังช่วยลดความดันโลหิต ช่วยย่อยอาหาร  เป็นยาระบาย ละลายเสมหะ และแก้กระหายน้ำค่ะ ส่วนพุทราจีน  เป็นยาบำรุงเลือด  ช่วยบำรุงสายตาและผิวให้สุขภาพดีไม่เป็นโรคเกี่ยวกับผิวพรรณและ สายตา ตาไม่ฟาง และไม่บอดกลางคืน  ช่วยบำรุงประสาท เลือด กระเพาะอาหารและม้ามค่ะ  ซึ่งตามสูตรของคนจีน ต้องใส่พุทราจีนแห้งลงไปต้มด้วยนะคะ เพื่อป้องกันฤทธิ์ของกระเจี๊ยบไปกัดไตและ ปอด"
                 android:textSize="16dp"/>
 
 

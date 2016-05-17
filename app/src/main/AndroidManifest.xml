@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,6 +14,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/MyMaterialTheme">
+
+
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -66,7 +70,51 @@
         <activity
             android:name=".HerbDetailPActivity"
             android:label="@string/title_activity_herb_detail_p"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InfoDetailActivity"
+            android:label="@string/title_activity_info_detail"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".DiseaseDetailPActivity"
+            android:label="@string/title_activity_disease_detail_p"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".ArticleDetailPActivity"
+            android:label="@string/title_activity_article_detail_p"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".InviteActivity"
+            android:label="@string/title_activity_invite"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".MenuCActivity"
+            android:label="@string/title_activity_menu_c"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".DiseaseSearchCActivity"
+            android:label="@string/title_activity_disease_search_c"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".DiseaseDetailCActivity"
+            android:label="@string/title_activity_disease_detail_c"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".ArticleSearchCActivity"
+            android:label="@string/title_activity_article_search_c"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".ArticleDeailCActivity"
+            android:label="@string/title_activity_article_deail_c"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".HerbDetailCActivity"
+            android:label="@string/title_activity_herb_detail_c"
+            android:theme="@style/MyMaterialTheme"></activity>
     </application>
 
 </manifest>

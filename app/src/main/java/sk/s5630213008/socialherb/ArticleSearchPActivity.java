@@ -7,11 +7,18 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class ArticleSearchPActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button btnNEXTaa;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,12 +30,14 @@ public class ArticleSearchPActivity extends AppCompatActivity implements View.On
         btnNEXTaa = (Button)findViewById(R.id.btnNEXTaa);
         btnNEXTaa.setOnClickListener(this);
 
+
+
     }
 
     @Override
     public void onClick(View v) {
 
-        Intent intent = new Intent(getApplicationContext(),NewLoginActivity.class);
+        Intent intent = new Intent(getApplicationContext(),ArticleDetailPActivity.class);
         startActivity(intent);
     }
 }

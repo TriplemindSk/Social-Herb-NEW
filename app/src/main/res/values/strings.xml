@@ -26,12 +26,41 @@
     <string name="title_activity_herb_search_c">ค้นหาสมุนไพร</string>
     <string name="title_activity_disease_search_p">ค้นหาอาการ/โรค</string>
     <string name="title_activity_article_search_p">ค้นหาบทความเพื่อสุขภาพ</string>
-    <string name="title_activity_info_search_p">ค้นหาInfographic</string>    
+    <string name="title_activity_info_search_p">Infographic</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_herb_detail_p">สมุนไพร</string>
-    
 
 
+    <string name="google">https://www4.tu.ac.th/images/images/pdf/research/p19.pdf </string>
+    <string name="title_activity_info_detail">Infographic</string>
+
+
+    <!-- ADD picture Info page-->
+    <string-array name="image_ids">
+        <item>@drawable/article</item>
+        <item>@drawable/herb</item>
+        <item>@drawable/home</item>
+        <item>@drawable/disease</item>
+        <item>@drawable/detail</item>
+        <item>@drawable/image</item>
+        <item>@drawable/info</item>
+        <item>@drawable/menu</item>
+
+    </string-array>
+    <string name="title_activity_disease_detail_p">อาการ/โรค</string>
+    <string name="title_activity_article_detail_p">บทความเพื่อสุขภาพ</string>
+    <string name="title_activity_edit_profile">แก้ไขข้อมูลส่วนตัว</string>
+    <string name="title_activity_invite">เชิญเพื่อน</string>
+
+
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="title_activity_menu_c">Social Herb Menu</string>
+    <string name="title_activity_disease_search_c">ค้นหาอาการ/โรค</string>
+    <string name="title_activity_disease_detail_c">อาการ/โรค</string>
+    <string name="title_activity_article_search_c">ค้นหาบทความเพื่อสุขภาพ</string>
+    <string name="title_activity_article_deail_c">บทความเพื่อสุขภาพ</string>
+    <string name="title_activity_herb_detail_c">สมุนไพร</string>
 
 
 </resources>

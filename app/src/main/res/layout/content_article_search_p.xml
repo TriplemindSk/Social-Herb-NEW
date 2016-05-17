@@ -14,13 +14,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+
 
             <Button
                 android:layout_width="match_parent"
@@ -29,7 +26,65 @@
                 android:onClick="onClick"
                 android:id="@+id/btnNEXTaa"/>
 
-        </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="บทความแนะนำ"
+                android:textColor="#000"
+                />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="อยู่กับลูกสมาธิสั้นอย่างมีความสุข"
+            android:textSize="18dp"
+            android:id="@+id/btns"
+            android:textColor="#b44e4e"
+            android:textStyle="bold"
+            android:onClick="atClick"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ความสุข 7 อย่างของลูกที่พ่อแม่คาดไม่ถึง"
+            android:textSize="18dp"
+            android:id="@+id/button18"
+            android:textColor="#b44e4e"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="สารอาหารคุณแม่ตั้งครรภ์ห้ามพลาด"
+            android:textSize="18dp"
+            android:id="@+id/button19"
+            android:textColor="#b44e4e"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="อันตรายจากอาการบ้านหมุน"
+            android:textSize="18dp"
+            android:id="@+id/button20"
+            android:textColor="#b44e4e"
+            android:textStyle="bold"
+            />
+
+
     </LinearLayout>
 
 </RelativeLayout>

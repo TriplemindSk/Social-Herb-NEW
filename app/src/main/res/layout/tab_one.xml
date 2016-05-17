@@ -36,7 +36,7 @@
                         android:layout_height="wrap_content"
                         android:textStyle="bold"
                         android:textSize="20dp"
-                        android:text="ชื่อสมุนไพร"
+                        android:text="กระเจี๊ยบแดง"
                         android:id="@+id/tvh"
                         android:layout_gravity="center_horizontal"
                         android:textColor="#1c1c1c" />
@@ -50,7 +50,9 @@
                     <ImageView
                         android:layout_width="110dp"
                         android:layout_height="75dp"
-                        android:src="@drawable/herb"
+                        android:id="@+id/imgHerb"
+                        android:src="@drawable/tg"
+
                         android:layout_gravity="center_horizontal"
                         />
 
@@ -62,8 +64,26 @@
                 android:orientation="horizontal">
             </LinearLayout>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="ชื่ออื่นๆ"
+                android:textColor="#1c1c1c"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ชื่ออื่นๆ	กระเจี๊ยบ, กระเจี๊ยบเปรี้ยว (ภาคกลาง) ผักเก้งเค้ง, ส้มเก้งเค้ง (พายัพ) ส้มตะเลงเครง, ส้มปู, ส้มพอเหมาะ (ภาคเหนือ) แกงแดง (เชียงใหม่) ส้มพอดี (ภาคอีสาน) "
+                android:id="@+id/showName"/>
 
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:orientation="horizontal">
+            </LinearLayout>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -89,14 +109,16 @@
                 <ImageView
                     android:layout_width="75dp"
                     android:layout_height="45dp"
-                    android:src="@drawable/herb"
+                    android:id="@+id/imgleaf"
+                    android:src="@drawable/fff"
                     android:layout_gravity="center_horizontal"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ใบ"
+                    android:text="ใบ  มีลักษณะอยู่หลายชนิด ขอบใบเว้าลึก 3 หยัก หรือเรียบตัวใบเป็นรูปรีแหลม สำหรับ ก้านของใบนั้นจะยาว ประมาณ 5 ซม. "
+                    android:id="@+id/detailLeaf"
                     android:textSize="16dp"/>
             </LinearLayout>
 
@@ -114,14 +136,16 @@
                 <ImageView
                     android:layout_width="75dp"
                     android:layout_height="45dp"
-                    android:src="@drawable/herb"
+                    android:id="@+id/imgTrunk"
+                    android:src="@drawable/kj"
                     android:layout_gravity="center_horizontal"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ต้น"
+                    android:text="ลำต้น  เป็นพรรณไม้พุ่มขนาดเล็ก เป็นพืชปีเดียว ลำต้นสูงประมาณ 1 – 2 เมตร ส่วนลำต้น และกิ่งก้านนั้นจะมีสีม่วงแดง "
+                    android:id="@+id/detailTrunk"
                     android:textSize="16dp"/>
             </LinearLayout>
 
@@ -139,99 +163,18 @@
                 <ImageView
                     android:layout_width="75dp"
                     android:layout_height="45dp"
-                    android:src="@drawable/herb"
+                    android:id="@+id/imgRoot"
+                    android:src="@drawable/mmm"
                     android:layout_gravity="center_horizontal"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="ราก"
+                    android:text="ดอก  ดอกมีสีชมพูตรงกลางจะมีสีเข้มกว่า ส่วนนอกดอกจะออกบริเวณง่ามใบ ก้านดอกจะสั้น กลีบรองดอกจะมีลักษณะ เป็นปลายแหลม มีประมาณ 8 – 12 กลีบ กลีบเลี้ยงจะแผ่ขยาย ติดกันออกหุ้มเมล็ดไว้ มีสีแดงเข้มมีลักษณะที่ หักง่าย มีเส้นผ่าศูนย์กลางประมาณ 6 ซม. "
+                    android:id="@+id/detailRoot"
                     android:textSize="16dp"/>
             </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:orientation="horizontal">
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="45dp"
-                    android:src="@drawable/herb"
-                    android:layout_gravity="center_horizontal"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="ผล"
-                    android:textSize="16dp"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:orientation="horizontal">
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="45dp"
-                    android:src="@drawable/herb"
-                    android:layout_gravity="center_horizontal"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="หัว"
-                    android:textSize="16dp"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:orientation="horizontal">
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="45dp"
-                    android:src="@drawable/herb"
-                    android:layout_gravity="center_horizontal"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="ดอก"
-                    android:textSize="16dp"/>
-            </LinearLayout>
-
-
-
-
-
-
-
-
 
 
         </LinearLayout>
